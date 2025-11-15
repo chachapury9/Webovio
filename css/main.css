@@ -151,12 +151,14 @@ button {
   font-weight: 400;
   font-size: 16px;
   color: rgba(33, 56, 66, 0.6);
+  margin-bottom: 42px;
 }
 
 .wwd-quote {
   color: #4d533c;
   font-weight: 400;
   font-size: 24px;
+  margin-bottom: 50px;
 }
 
 .wwd-review-pfp {
@@ -173,4 +175,173 @@ button {
   color: #4d533c;
   font-weight: 700;
   font-size: 19px;
+}
+
+.wwb-link {
+  margin-top: 42px;
+  color: rgba(33, 56, 66, 0.6);
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.awesome-img {
+  width: 100%;
+  position: relative;
+}
+
+.awesome-item {
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.awesome-item:first-child {
+  background-image: url(../../images/awesome-img1.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 550px;
+}
+@media screen and (min-width: 1200px) {
+  .awesome-item:first-child {
+    padding: 80px 0px;
+    padding-left: 1050px;
+    background-position: left;
+  }
+}
+@media screen and (min-width: 768px) {
+  .awesome-item:first-child {
+    background-size: contain;
+  }
+}
+
+.awesome-item:nth-child(2) {
+  background-image: url(../../images/awesome-img2.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 550px;
+}
+@media screen and (min-width: 1200px) {
+  .awesome-item:nth-child(2) {
+    padding: 80px 0px;
+    padding-right: 1050px;
+    background-position: right;
+  }
+}
+@media screen and (min-width: 768px) {
+  .awesome-item:nth-child(2) {
+    background-size: contain;
+  }
+}
+
+.awesome-item:nth-child(3) {
+  background-image: url(../../images/awesome-img3.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 550px;
+}
+@media screen and (min-width: 1200px) {
+  .awesome-item:nth-child(3) {
+    padding: 80px 0px;
+    padding-left: 1050px;
+    background-position: left;
+  }
+}
+@media screen and (min-width: 768px) {
+  .awesome-item:nth-child(3) {
+    background-size: contain;
+  }
+}
+
+.awesome-text {
+  max-width: 475px;
+}
+@media screen and (min-width: 768px) {
+  .awesome-text {
+    margin-bottom: 140px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .awesome-text {
+    margin-top: 100px;
+  }
+}
+
+.awesome-review-quote {
+  font-size: 16px;
+  color: #4d533c;
+  width: 350px;
+}
+
+.awesome-title {
+  color: #4d533c;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.awesome-p {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(33, 56, 66, 0.6);
+  margin-bottom: 90px;
+}
+
+.awesome-link {
+  color: rgba(33, 56, 66, 0.6);
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.awesome-review {
+  border-radius: 8px;
+  width: 453px;
+  height: 243px;
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .awesome-review {
+    display: block;
+    position: absolute;
+    background-color: white;
+    padding: 30px;
+    -webkit-box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1450980392);
+            box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1450980392);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .awesome-review:first-child {
+    top: 372px;
+    left: 322px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .awesome-review:nth-child(2) {
+    top: 372px;
+    right: 322px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .awesome-review:nth-child(3) {
+    top: 372px;
+    left: 322px;
+  }
+}
+
+.awesome-pfp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  margin-top: 25px;
+}
+
+.awesome-name {
+  font-weight: 700;
+  font-size: 16px;
+  color: #4d533c;
 }

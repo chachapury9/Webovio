@@ -20,12 +20,14 @@
   font-weight: 400;
   font-size: 16px;
   color: $p-color;
+  margin-bottom: 42px;
 }
 
 .wwd-quote {
   color: $swamp;
   font-weight: 400;
   font-size: 24px;
+  margin-bottom: 50px;
 }
 
 .wwd-review-pfp {
@@ -38,4 +40,11 @@
   color: $swamp;
   font-weight: 700;
   font-size: 19px;
+}
+
+.wwb-link {
+  margin-top: 42px;
+  color: $p-color;
+  text-decoration: underline;
+  font-weight: 800;
 }
