@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.burger-menu {
+  font-size: 20px;
+  border: 0;
+  padding: 14px;
+  border-radius: 100px;
+  line-height: 0.7;
+  background-color: white;
+}

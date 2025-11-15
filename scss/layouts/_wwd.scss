@@ -1,0 +1,41 @@
+.what-we-do {
+  padding-top: 270px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wwd-text {
+  margin-bottom: 50px;
+}
+
+.wwd-title {
+  font-weight: 700;
+  font-size: 36px;
+  color: $swamp;
+  line-height: 46px;
+  margin-bottom: 35px;
+}
+
+.wwb-p {
+  font-weight: 400;
+  font-size: 16px;
+  color: $p-color;
+}
+
+.wwd-quote {
+  color: $swamp;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.wwd-review-pfp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wwd-review-name {
+  color: $swamp;
+  font-weight: 700;
+  font-size: 19px;
+}
