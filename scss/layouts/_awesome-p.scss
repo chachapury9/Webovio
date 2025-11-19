@@ -1,3 +1,7 @@
+.awesome-projects {
+  margin-top: 150px;
+}
+
 .awesome-img {
   width: 100%;
   position: relative;
@@ -14,14 +18,17 @@
   background-repeat: no-repeat;
   background-position: top;
   padding-top: 550px;
+  @media screen and (min-width: 768px) {
+    padding-left: 680px;
+    padding-top: 15px;
+    background-size: 558px;
+    background-position: left;
+  }
 
   @media screen and (min-width: 1200px) {
     padding: 80px 0px;
     padding-left: 1050px;
     background-position: left;
-  }
-
-  @media screen and (min-width: 768px) {
     background-size: contain;
   }
 }
@@ -33,12 +40,17 @@
   background-position: top;
   padding-top: 550px;
 
-  @media screen and (min-width: 1200px) {
-    padding: 80px 0px;
-    padding-right: 1050px;
+  @media screen and (min-width: 768px) {
+    padding-right: 280px;
+    padding-top: 15px;
+    background-size: 558px;
     background-position: right;
   }
-  @media screen and (min-width: 768px) {
+
+  @media screen and (min-width: 1200px) {
+    padding: 80px 0px;
+    padding-right: 72px;
+    background-position: right;
     background-size: contain;
   }
 }
@@ -50,13 +62,17 @@
   background-position: top;
   padding-top: 550px;
 
+  @media screen and (min-width: 768px) {
+    padding-left: 680px;
+    padding-top: 15px;
+    background-size: 558px;
+    background-position: left;
+  }
+
   @media screen and (min-width: 1200px) {
     padding: 80px 0px;
     padding-left: 1050px;
     background-position: left;
-  }
-
-  @media screen and (min-width: 768px) {
     background-size: contain;
   }
 }
@@ -102,6 +118,14 @@
   font-weight: 700;
   font-size: 36px;
   margin-bottom: 24px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 25px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+  }
 }
 
 .awesome-p {
@@ -109,6 +133,14 @@
   font-size: 16px;
   color: $p-color;
   margin-bottom: 90px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+  }
 }
 
 .awesome-link {
@@ -134,22 +166,22 @@
 
 .awesome-review:first-child {
   @media screen and (min-width: 1200px) {
-    top: 372px;
-    left: 322px;
+    top: 540px;
+    left: 752px;
   }
 }
 
 .awesome-review:nth-child(2) {
   @media screen and (min-width: 1200px) {
-    top: 372px;
-    right: 322px;
+    top: 572px;
+    right: 650px;
   }
 }
 
 .awesome-review:nth-child(3) {
   @media screen and (min-width: 1200px) {
-    top: 372px;
-    left: 322px;
+    top: 350px;
+    left: 752px;
   }
 }
 
@@ -163,4 +195,24 @@
   font-weight: 700;
   font-size: 16px;
   color: $swamp;
+}
+
+.awesome-i-p {
+  color: $p-color;
+  width: 518px;
+}
+
+.awesome-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 133px;
+  margin-bottom: 104px;
+}
+
+.awesome-i-title {
+  color: $swamp;
+  width: 325px;
+  font-weight: 700;
+  font-size: 36px;
 }

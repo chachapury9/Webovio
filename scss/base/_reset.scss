@@ -1,9 +1,7 @@
-.logo {
-  color: white;
-}
-
-body {
-  font-family: "Poppins";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ul {
@@ -14,10 +12,8 @@ a {
   text-decoration: none;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  font-family: "Poppins";
 }
 
 button {
@@ -40,4 +36,8 @@ button {
   @media screen and (min-width: 1200px) {
     max-width: 1200px;
   }
+}
+
+.logo {
+  color: white;
 }

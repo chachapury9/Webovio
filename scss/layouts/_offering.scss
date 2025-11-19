@@ -1,0 +1,94 @@
+.offering {
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 358px;
+  }
+}
+
+.offering-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: $swamp;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    width: 607px;
+    text-align: left;
+  }
+}
+
+.offering-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  @media screen and (min-width: 768px) {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+  }
+}
+
+.offering-item {
+  padding: 10px;
+  width: 255px;
+}
+
+.offering-label {
+  width: 183px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: $swamp;
+  text-transform: uppercase;
+}
+
+.offering-item:first-child > .offering-text {
+  width: 194px;
+
+  color: $p-color;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 56px;
+}
+
+.offering-item:nth-child(2) > .offering-text {
+  width: 194px;
+  color: $p-color;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+.offering-item:nth-child(3) > .offering-text {
+  width: 194px;
+  color: $p-color;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 90px;
+}
+
+.offering-item:nth-child(4) > .offering-text {
+  width: 194px;
+  color: $p-color;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 68px;
+}
+
+.offering-link {
+  position: inherit;
+  color: $p-color;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.offering-link:hover {
+  color: $yellow;
+}

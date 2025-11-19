@@ -1,7 +1,15 @@
 .what-we-do {
-  padding-top: 270px;
   display: flex;
   flex-direction: column;
+  padding-top: 25px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 244px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+  }
 }
 
 .wwd-text {
@@ -28,6 +36,7 @@
   font-weight: 400;
   font-size: 24px;
   margin-bottom: 50px;
+  width: 426px;
 }
 
 .wwd-review-pfp {

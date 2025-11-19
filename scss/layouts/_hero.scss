@@ -31,7 +31,7 @@
 }
 
 .sponsors-list {
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: white;
   align-items: center;
@@ -39,4 +39,14 @@
   right: 0;
   top: 707px;
   border-radius: 2px;
+  gap: 66px;
+  padding: 50px 66px;
+  box-shadow: 50px 50px 100px 0px #00000025;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    top: 540px;
+    flex-direction: row;
+    right: 355px;
+  }
 }
