@@ -27,7 +27,6 @@ button {
   margin-right: auto;
   width: 100%;
   padding: 0 15px 0 15px;
-  outline: 2px solid tomato;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -560,6 +559,7 @@ button {
 @media screen and (min-width: 1200px) {
   .footer {
     padding: 120px 310px;
+    text-align: left;
   }
 }
 
@@ -571,7 +571,7 @@ button {
     display: block;
     position: absolute;
     left: 0;
-    bottom: 400px;
+    bottom: 580px;
     border-radius: 2px;
     padding: 50px 66px;
     background-color: #fafafa;
@@ -592,6 +592,16 @@ button {
   display: flex;
   gap: 128px;
   margin-bottom: 113px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer-contacts {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
 }
 
 .footer-links {
@@ -605,6 +615,15 @@ button {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 50px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-links {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
 }
 
 .ftk-title {
@@ -624,10 +643,53 @@ button {
   color: #b6c197;
   font-weight: 400;
   font-size: 16px;
+  margin-bottom: 8px;
 }
 
 .ft-info {
   color: white;
   font-weight: 700;
   font-size: 16px;
+}
+
+.ftk-email {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.footer-svg {
+  width: 33px;
+  height: 33px;
+  fill: #4d533c;
+  background-color: #444a34;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.footer-socials {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 11px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer-socials {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+}
+
+.footer-social-link:hover .footer-svg {
+  fill: #ffffff;
+  background-color: #ffd723;
+}
+
+.get-in-touch {
+  margin-left: 124px;
 }

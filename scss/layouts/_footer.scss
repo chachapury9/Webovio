@@ -6,6 +6,7 @@
 
   @media screen and (min-width: 1200px) {
     padding: 120px 310px;
+    text-align: left;
   }
 }
 
@@ -15,7 +16,7 @@
     display: block;
     position: absolute;
     left: 0;
-    bottom: 400px;
+    bottom: 580px;
     border-radius: 2px;
     padding: 50px 66px;
     background-color: #fafafa;
@@ -33,6 +34,10 @@
   display: flex;
   gap: 128px;
   margin-bottom: 113px;
+  justify-content: center;
+  @media screen and (min-width: 1200px) {
+    justify-content: left;
+  }
 }
 
 .footer-links {
@@ -41,6 +46,11 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 50px;
+
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+    justify-content: left;
+  }
 }
 
 .ftk-title {
@@ -60,10 +70,45 @@
   color: $footer-link;
   font-weight: 400;
   font-size: 16px;
+  margin-bottom: 8px;
 }
 
 .ft-info {
   color: white;
   font-weight: 700;
   font-size: 16px;
+}
+
+.ftk-email {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.footer-svg {
+  width: 33px;
+  height: 33px;
+  fill: $swamp;
+  background-color: #444a34;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.footer-socials {
+  margin-top: 24px;
+  display: flex;
+  gap: 11px;
+  justify-content: center;
+  @media screen and (min-width: 1200px) {
+    justify-content: left;
+  }
+}
+
+.footer-social-link:hover .footer-svg {
+  fill: #ffffff;
+  background-color: #ffd723;
+}
+
+.get-in-touch {
+  margin-left: 124px;
 }
