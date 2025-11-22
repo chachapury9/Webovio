@@ -74,7 +74,7 @@ button {
 }
 
 .hero {
-  background-image: url("../../images/hero-bg.png");
+  background-image: url("../images/hero-bg.png");
   background-position: center;
   background-size: cover;
   color: white;
@@ -230,7 +230,7 @@ button {
 }
 
 .awesome-item:first-child {
-  background-image: url(../../images/awesome-img1.png);
+  background-image: url(../images/awesome-img1.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: top;
@@ -254,7 +254,7 @@ button {
 }
 
 .awesome-item:nth-child(2) {
-  background-image: url(../../images/awesome-img2.png);
+  background-image: url(../images/awesome-img2.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: top;
@@ -278,7 +278,7 @@ button {
 }
 
 .awesome-item:nth-child(3) {
-  background-image: url(../../images/awesome-img3.png);
+  background-image: url(../images/awesome-img3.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: top;
@@ -553,7 +553,7 @@ button {
 .footer {
   position: relative;
   text-align: center;
-  background-image: url(.././../images/Bg.png);
+  background-image: url(../images/Bg.png);
   padding-top: 100px;
 }
 @media screen and (min-width: 1200px) {
