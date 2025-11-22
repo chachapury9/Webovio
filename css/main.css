@@ -217,11 +217,8 @@ button {
 
 .awesome-projects {
   margin-top: 150px;
-}
-
-.awesome-img {
-  width: 100%;
-  position: relative;
+  max-width: 1441px;
+  margin: 0 auto;
 }
 
 .awesome-item {
@@ -238,18 +235,17 @@ button {
 }
 @media screen and (min-width: 768px) {
   .awesome-item:first-child {
-    padding-left: 680px;
     padding-top: 15px;
-    background-size: 558px;
+    padding-left: 360px;
+    background-size: 358px;
     background-position: left;
   }
 }
 @media screen and (min-width: 1200px) {
   .awesome-item:first-child {
     padding: 80px 0px;
-    padding-left: 1050px;
     background-position: left;
-    background-size: contain;
+    background-size: auto;
   }
 }
 
@@ -262,9 +258,9 @@ button {
 }
 @media screen and (min-width: 768px) {
   .awesome-item:nth-child(2) {
-    padding-right: 280px;
     padding-top: 15px;
-    background-size: 558px;
+    padding-right: 360px;
+    background-size: 358px;
     background-position: right;
   }
 }
@@ -272,8 +268,8 @@ button {
   .awesome-item:nth-child(2) {
     padding: 80px 0px;
     padding-right: 72px;
+    background-size: auto;
     background-position: right;
-    background-size: contain;
   }
 }
 
@@ -286,18 +282,17 @@ button {
 }
 @media screen and (min-width: 768px) {
   .awesome-item:nth-child(3) {
-    padding-left: 680px;
     padding-top: 15px;
-    background-size: 558px;
+    padding-left: 360px;
+    background-size: 358px;
     background-position: left;
   }
 }
 @media screen and (min-width: 1200px) {
   .awesome-item:nth-child(3) {
     padding: 80px 0px;
-    padding-left: 1050px;
     background-position: left;
-    background-size: contain;
+    background-size: auto;
   }
 }
 
@@ -306,12 +301,27 @@ button {
 }
 @media screen and (min-width: 768px) {
   .awesome-text {
-    margin-bottom: 140px;
+    margin-left: auto;
   }
 }
 @media screen and (min-width: 1200px) {
   .awesome-text {
+    width: 475px;
+  }
+}
+
+.awesome-text-autistic {
+  max-width: 475px;
+}
+@media screen and (min-width: 768px) {
+  .awesome-text-autistic {
+    margin-bottom: 140px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .awesome-text-autistic {
     margin-top: 100px;
+    width: 475px;
   }
 }
 
@@ -370,7 +380,6 @@ button {
 @media screen and (min-width: 1200px) {
   .awesome-review {
     display: block;
-    position: absolute;
     background-color: white;
     padding: 30px;
     -webkit-box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1450980392);
@@ -380,22 +389,25 @@ button {
 
 @media screen and (min-width: 1200px) {
   .awesome-review:first-child {
-    top: 540px;
-    left: 752px;
+    position: absolute;
+    top: 358px;
+    left: 350px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .awesome-review:nth-child(2) {
-    top: 572px;
-    right: 650px;
+    position: absolute;
+    top: 550px;
+    left: 330px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .awesome-review:nth-child(3) {
-    top: 350px;
-    left: 752px;
+    position: absolute;
+    top: 558px;
+    left: 350px;
   }
 }
 
@@ -416,6 +428,7 @@ button {
 .awesome-i-p {
   color: rgba(33, 56, 66, 0.6);
   width: 518px;
+  font-size: 16px;
 }
 
 .awesome-intro {
@@ -428,8 +441,14 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 133px;
+  gap: 50px;
   margin-bottom: 104px;
+  margin-top: 301px;
+}
+@media screen and (min-width: 1200px) {
+  .awesome-intro {
+    gap: 136px;
+  }
 }
 
 .awesome-i-title {
@@ -702,8 +721,10 @@ button {
   background-color: #ffd723;
 }
 
-.get-in-touch {
-  margin-left: 124px;
+@media screen and (min-width: 1200px) {
+  .get-in-touch {
+    margin-left: 124px;
+  }
 }
 
 .rights-text {

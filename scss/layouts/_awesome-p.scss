@@ -1,10 +1,7 @@
 .awesome-projects {
   margin-top: 150px;
-}
-
-.awesome-img {
-  width: 100%;
-  position: relative;
+  max-width: 1441px;
+  margin: 0 auto;
 }
 
 .awesome-item {
@@ -19,17 +16,16 @@
   background-position: top;
   padding-top: 550px;
   @media screen and (min-width: 768px) {
-    padding-left: 680px;
     padding-top: 15px;
-    background-size: 558px;
+    padding-left: 360px;
+    background-size: 358px;
     background-position: left;
   }
 
   @media screen and (min-width: 1200px) {
     padding: 80px 0px;
-    padding-left: 1050px;
     background-position: left;
-    background-size: contain;
+    background-size: auto;
   }
 }
 
@@ -41,17 +37,17 @@
   padding-top: 550px;
 
   @media screen and (min-width: 768px) {
-    padding-right: 280px;
     padding-top: 15px;
-    background-size: 558px;
+    padding-right: 360px;
+    background-size: 358px;
     background-position: right;
   }
 
   @media screen and (min-width: 1200px) {
     padding: 80px 0px;
     padding-right: 72px;
+    background-size: auto;
     background-position: right;
-    background-size: contain;
   }
 }
 
@@ -61,23 +57,33 @@
   background-repeat: no-repeat;
   background-position: top;
   padding-top: 550px;
-
   @media screen and (min-width: 768px) {
-    padding-left: 680px;
     padding-top: 15px;
-    background-size: 558px;
+    padding-left: 360px;
+    background-size: 358px;
     background-position: left;
   }
 
   @media screen and (min-width: 1200px) {
     padding: 80px 0px;
-    padding-left: 1050px;
     background-position: left;
-    background-size: contain;
+    background-size: auto;
   }
 }
 
 .awesome-text {
+  max-width: 475px;
+
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 475px;
+  }
+}
+
+.awesome-text-autistic {
   max-width: 475px;
 
   @media screen and (min-width: 768px) {
@@ -86,6 +92,7 @@
 
   @media screen and (min-width: 1200px) {
     margin-top: 100px;
+    width: 475px;
   }
 }
 
@@ -156,7 +163,6 @@
   display: none;
   @media screen and (min-width: 1200px) {
     display: block;
-    position: absolute;
 
     background-color: white;
     padding: 30px;
@@ -166,22 +172,25 @@
 
 .awesome-review:first-child {
   @media screen and (min-width: 1200px) {
-    top: 540px;
-    left: 752px;
+    position: absolute;
+    top: 358px;
+    left: 350px;
   }
 }
 
 .awesome-review:nth-child(2) {
   @media screen and (min-width: 1200px) {
-    top: 572px;
-    right: 650px;
+    position: absolute;
+    top: 550px;
+    left: 330px;
   }
 }
 
 .awesome-review:nth-child(3) {
   @media screen and (min-width: 1200px) {
-    top: 350px;
-    left: 752px;
+    position: absolute;
+    top: 558px;
+    left: 350px;
   }
 }
 
@@ -200,14 +209,19 @@
 .awesome-i-p {
   color: $p-color;
   width: 518px;
+  font-size: 16px;
 }
 
 .awesome-intro {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 133px;
+  gap: 50px;
   margin-bottom: 104px;
+  margin-top: 301px;
+  @media screen and (min-width: 1200px) {
+    gap: 136px;
+  }
 }
 
 .awesome-i-title {
