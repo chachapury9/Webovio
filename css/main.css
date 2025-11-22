@@ -558,7 +558,7 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .footer {
-    padding: 120px 310px;
+    padding-top: 310px;
     text-align: left;
   }
 }
@@ -571,7 +571,7 @@ button {
     display: block;
     position: absolute;
     left: 0;
-    bottom: 580px;
+    bottom: 650px;
     border-radius: 2px;
     padding: 50px 66px;
     background-color: #fafafa;
@@ -633,7 +633,19 @@ button {
   font-weight: 600;
 }
 
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .ftk-link {
+  color: #b6c197;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.rights-text .ftk-link {
   color: #b6c197;
   display: block;
   margin-bottom: 5px;
@@ -692,4 +704,36 @@ button {
 
 .get-in-touch {
   margin-left: 124px;
+}
+
+.rights-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.rights-logo {
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+}
+
+.copyright {
+  color: #b5c096;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.rights {
+  margin-top: 93px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

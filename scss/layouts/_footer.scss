@@ -5,7 +5,7 @@
   padding-top: 100px;
 
   @media screen and (min-width: 1200px) {
-    padding: 120px 310px;
+    padding-top: 310px;
     text-align: left;
   }
 }
@@ -16,7 +16,7 @@
     display: block;
     position: absolute;
     left: 0;
-    bottom: 580px;
+    bottom: 650px;
     border-radius: 2px;
     padding: 50px 66px;
     background-color: #fafafa;
@@ -60,7 +60,17 @@
   font-weight: 600;
 }
 
+.logo {
+  display: flex;
+}
+
 .ftk-link {
+  color: $footer-link;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.rights-text .ftk-link {
   color: $footer-link;
   display: block;
   margin-bottom: 5px;
@@ -111,4 +121,28 @@
 
 .get-in-touch {
   margin-left: 124px;
+}
+
+.rights-text {
+  display: flex;
+  gap: 5px;
+}
+
+.rights-logo {
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+}
+
+.copyright {
+  color: #b5c096;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.rights {
+  margin-top: 93px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
